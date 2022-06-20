@@ -1,0 +1,46 @@
+{
+  "cities": [
+    {
+      "section": "cupertino",
+      "label": "Cupertino",
+      "timeZone": "America/Los_Angeles",
+      "img": "cupertino.jpg"
+    },
+    {
+      "section": "new-york-city",
+      "label": "New York City",
+      "timeZone": "America/New_York",
+      "img": "new-york.jpeg"
+    },
+    {
+      "section": "london",
+      "label": "London",
+      "timeZone": "Europe/London",
+      "img": "london.jpeg"
+    },
+    {
+      "section": "amsterdam",
+      "label": "Amsterdam",
+      "timeZone": "Europe/Amsterdam",
+      "img": "amsterdam.jpeg"
+    },
+    {
+      "section": "tokyo",
+      "label": "Tokyo",
+      "timeZone": "Asia/Tokyo",
+      "img": "tokyo.jpeg"
+    },
+    {
+      "section": "hong-kong",
+      "label": "Hong Kong",
+      "timeZone": "Asia/Hong_Kong",
+      "img": "hong-kong.jpeg"
+    },
+    {
+      "section": "sydney",
+      "label": "Sydney",
+      "timeZone": "Australia/Sydney",
+      "img": "sydney.jpeg"
+    }
+  ]
+}

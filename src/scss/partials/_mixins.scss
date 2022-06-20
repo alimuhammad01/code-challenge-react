@@ -1,0 +1,77 @@
+@import "_variables";
+
+// Body Style
+@mixin BodyStyle {
+  font-size: $base-fonts;
+  line-height: $base-lineHeight;
+  font-family: $base-fontFamily;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+// Typography
+@mixin h1 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+  margin: 0 0 25px 0;
+}
+
+@mixin h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+  margin: 0 0 25px 0;
+}
+
+@mixin h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+  margin: 0 0 15px 0;
+}
+
+@mixin h4 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+  margin: 0 0 15px 0;
+}
+
+@mixin h5 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+  margin: 0 0 15px 0;
+}
+
+@mixin h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--base-fontFamily);
+  margin: 0 0 15px 0;
+}
+
+@mixin BodyText {
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 400;
+  font-family: var(--base-fontFamily);
+}
+
+// Container
+@mixin container {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

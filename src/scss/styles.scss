@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "partials/_variables";
+@import "partials/_mixins";
+
+// Global Style Start
+*,*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  @include BodyStyle;
+}
+ul,ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a,a:hover {
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+.container {
+  @include container;
+}
+h1 {
+  @include h1;
+}
+h2 {
+  @include h2;
+}
+h3 {
+  @include h3;
+}
+h4 {
+  @include h4;
+}
+h5 {
+  @include h5;
+}
+h6 {
+  @include h6;
+}
+// Global Style End

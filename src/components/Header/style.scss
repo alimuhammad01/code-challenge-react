@@ -1,0 +1,51 @@
+@import "../../scss/partials/_mixins";
+@import "../../scss/partials/_variables";
+
+// Navigation Style
+
+.app_header {
+  padding: 15px 0;
+  nav {
+    border-bottom: 2px solid $light_grey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    li {
+      margin: 0 25px;
+    }
+    .nav_btn {
+      @include BodyStyle;
+      padding: 10px 0;
+      display: inline-block;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      color: $color_grey;
+      font-weight: 500;
+      &:hover {
+        color: $color_link;
+      }
+      &.active {
+        color: $color_dark;
+      }
+    }
+  }
+
+  .tab_bar {
+    transition: 0.4s all ease;
+    //width: 50px;
+    height: 2px;
+    background-color: $color_dark;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+  }
+}
